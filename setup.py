@@ -5,7 +5,7 @@ with open('README.rst') as f:
 
 setup(
     name="gfwlist2pac",
-    version="1.1.3",
+    version="1.1.4",
     license='MIT',
     description="convert gfwlist2pac to pac",
     author='clowwindy',
@@ -25,6 +25,8 @@ setup(
         'Programming Language :: Python :: 2',
         'Programming Language :: Python :: 2.6',
         'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.6',
     ],
     long_description=long_description,
 )
